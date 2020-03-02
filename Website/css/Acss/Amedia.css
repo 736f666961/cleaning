@@ -1,0 +1,234 @@
+/* For extra small devices */
+@media screen and (min-width: 0px) and (max-width: 800px){
+    .propos-section{
+        display: block;
+    }
+
+    .propos-section .propos-section-1{
+        width: 100%;
+        float: none;
+    }
+    .propos-section .propos-section-1 img{
+        width: 100%;
+    }
+
+    .propos-section .propos-section-2{
+        margin-left: 0px;
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .propos-section .propos-section-2 h3, 
+    .propos-section .propos-section-2 p{
+        text-align: center;
+    }
+
+
+    .cards-title{
+        font-size: 23px !important;
+    }
+
+    .card-header-border{
+        text-align: center;
+    }
+
+    .type-nettyage{
+        font-size: 17px;
+        font-family: 'Poppins Medium';
+    }
+
+    .cards i{
+        font-size: 25px;
+    }
+
+    .cards .card-prix{
+        font-family: 'Poppins light', sans-serif;
+        font-size: 32px;
+        color: #7C7C7C;
+    }
+
+    .card-1, .card-2, .card-3, .card-4{
+        display: block;
+        width: 98% !important;
+        margin-top: 5px;
+        margin-left: 4px;
+    }
+    /* Footer  */
+    .footer-propos, .footer-apercu, .footer-services, 
+    .footer-contactez-nous{
+        display: block;
+        width: 100% !important;
+        height: auto;
+        background-color: white;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 30%;
+        padding-bottom: 30px;
+    }
+    footer div h3{
+        font-size: 15px;
+        font-weight: bold;
+        color: #333;
+        font-family: 'Tahoma';
+    }
+
+    footer div address{
+        line-height: 2;
+        color: #3e3e3e;
+        font-family: 'Poppins';
+    }
+
+    footer div a {
+        line-height: 2;
+        color: #3e3e3e;
+        font-family: 'Poppins';
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 767px){
+    /* Top Menu and border-bottom: ; */
+    .top_menu, #border-bottom{
+        display: none;
+    }
+    /* Nav bar */
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* Nav bar Elements*/
+    nav #elements{
+        display: none;
+    }
+    /* Logo */
+    .logo{
+        width: 70px;
+        height: 45px !important;
+        margin-left: -10px;
+    }
+    
+    /* Menu Icon */
+    .menu-icon{
+        display: inline;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    /* block */
+    .block{
+        position: absolute;
+        display: block;
+        background-color: rgb(250, 249, 249);
+        z-index: 1;
+        height: 360px;
+    }
+    
+    .block li {
+        list-style-type: none;
+        padding: 4px;
+        line-height: 2;
+    }
+    
+    .block li a{
+        text-decoration: none;
+        color: #707070;
+        
+    }
+    #mobile-menu{
+        position: relative;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 992px){
+
+    .blog-image{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .blog-section{
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    .blog-section p{
+        text-indent: 0px;
+    }
+    .cards{
+        margin: 2px;
+    }
+
+    .cards-title{
+        font-size: 5vw;
+    }
+
+    .card-1, .card-2, .card-3, .card-4{
+        display: block;
+        width: 44%;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    /* Footer */
+    footer{
+        margin-left: 0px;
+        width: 100%;
+        position: relative !important;
+        bottom: 0px;
+    }
+
+    .footer-propos, .footer-apercu{
+        display: block;
+        width: 50%;
+    }
+    .footer-propos a, .footer-apercu a, .footer-apercu h3{
+        text-align: center;
+    }
+    .footer-services, .footer-contactez-nous{
+        display: block;
+        width: 50%;
+    }
+    .footer-services a, .footer-services h3,
+    .footer-contactez-nous a, .footer-contactez-nous h3, .footer-contactez-nous address{
+        text-align: center;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 35%;
+    }
+
+}
+
+/* For extra large devices */
+@media screen and (min-width: 1201px){
+    .propos-section-2 p{
+        font-size: 1vw !important;
+    }
+    
+    .propos-section{
+        height: 518px;
+    }
+
+    .propos-section-2 p{
+        font-size: 19px !important;
+    }
+
+    .blog-section div h3{
+        font-size: 20px;
+    }
+
+    .blog-section div p{
+        font-size: 20px;
+    }
+
+}
+
+/* For hidding block menu on large screen */
+@media screen and (min-width: 768px){
+    #mobile-menu{
+        display: none !important;
+    }
+}

@@ -1,0 +1,238 @@
+/* For extra small devices */
+@media screen and (min-width: 0px) and (max-width: 600px){
+    /* Comment_Nous_Travaillons */
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-1,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-2,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-3,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-4{
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+        margin: 0px !important;
+        margin-top: 30px !important;
+    }
+        
+    /* Footer  */
+    .footer-propos, .footer-apercu, .footer-services, 
+    .footer-contactez-nous{
+        display: block;
+        width: 100% !important;
+        height: auto;
+        background-color: white;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 30%;
+        padding-bottom: 30px;
+    }
+    footer div h3{
+        font-size: 15px;
+        font-weight: bold;
+        color: #333;
+        font-family: 'Tahoma';
+    }
+
+    footer div address{
+        line-height: 2;
+        color: #3e3e3e;
+        font-family: 'Poppins';
+    }
+
+    footer div a {
+        line-height: 2;
+        color: #3e3e3e;
+        font-family: 'Poppins';
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 767px){
+        /* Top Menu and border-bottom: ; */
+        .top_menu, #border-bottom{
+            display: none;
+        }
+        /* Nav bar */
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        /* Nav bar Elements*/
+        nav #elements{
+            display: none;
+        }
+        /* Logo */
+        .logo{
+            width: 70px;
+            height: 45px !important;
+            margin-left: -10px;
+        }
+        
+        /* Menu Icon */
+        .menu-icon{
+            display: inline;
+            font-size: 25px;
+            margin-left: 10px;
+        }
+        /* block */
+        .block{
+            position: absolute;
+            display: block;
+            background-color: rgb(250, 249, 249);
+            z-index: 1;
+            height: 360px;
+        }
+        
+        .block li {
+            list-style-type: none;
+            padding: 4px;
+            line-height: 2;
+        }
+        
+        .block li a{
+            text-decoration: none;
+            color: #707070;
+            
+        }
+        #mobile-menu{
+            position: relative;
+        }
+    h2 {
+        text-align: center;
+    }
+    #Demanderdevis {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column;
+    }
+    section{
+        margin: auto;
+        width: 90%;
+    }
+    .form_devis {
+        width: 100%;
+    }
+    .img_promo {
+        margin: auto;
+        width: 70%;
+    }
+
+    /* figcaption {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    } */
+    
+    /* Services En Vedette */
+    #services .Services_en_Vedette .service-image-1, #services .Services_en_Vedette .service-image-2,
+    #services .Services_en_Vedette .service-image-3, #services .Services_en_Vedette .service-image-4,
+    #services .Services_en_Vedette .service-image-5, #services .Services_en_Vedette .service-image-6{
+        width: 100% !important;
+    }
+    /* Comment_Nous_Travaillons */
+    .Comment_Nous_Travaillons{
+        display: flex !important;
+        /* flex-direction: row !important; */
+        flex-wrap: wrap !important;
+        /* justify-content: center !important; */
+        padding-left: 0px !important;
+    }
+
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-1,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-2{
+        width: 30%;
+        float: left !important;
+        /* margin-left: 40px !important; */
+    }
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-3,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-4{
+        width: 30%;
+        float: left !important;
+        /* margin-left: 40px !important; */
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 992px){
+    /* Services */
+    .services{
+        width: 100%;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    /* Services En Vedette */
+    #services .Services_en_Vedette .service-image-1, #services .Services_en_Vedette .service-image-2,
+    #services .Services_en_Vedette .service-image-3, #services .Services_en_Vedette .service-image-4,
+    #services .Services_en_Vedette .service-image-5, #services .Services_en_Vedette .service-image-6{
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    /* Comment_Nous_Travaillons */
+    .Comment_Nous_Travaillons{
+        display: block;
+        /* float: left; */
+        width: 100%;
+    }
+
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-1,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-2{
+        width: 30%;
+        float: left;
+        display: inline;
+        margin-left: 100px;
+    }
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-3,
+    .Comment_Nous_Travaillons .Comment_Nous_Travaillons-image-4{
+        width: 30%;
+        float: left;
+        display: inline;
+        margin-left: 100px;
+    }
+      /* Footer */
+      footer{
+        margin-left: 0px;
+        width: 100%;
+        position: relative !important;
+        bottom: 0px;
+    }
+
+    .footer-propos, .footer-apercu{
+        display: block;
+        width: 50%;
+    }
+    .footer-propos a, .footer-apercu a, .footer-apercu h3{
+        text-align: center;
+    }
+    .footer-services, .footer-contactez-nous{
+        display: block;
+        width: 50%;
+    }
+    .footer-services a, .footer-services h3,
+    .footer-contactez-nous a, .footer-contactez-nous h3, .footer-contactez-nous address{
+        text-align: center;
+    }
+
+    footer .icons a i{
+        position: relative;
+        left: 35%;
+    }
+}
+
+/* For hidding block menu on large screen */
+@media screen and (min-width: 768px){
+    #mobile-menu{
+        display: none !important;
+    }
+}
+
+@media (min-width:1200px){
+    .Services_en_Vedette {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10%; */
+        margin: auto;
+    }
+}

@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding-left: 0px;
+}
+/* Top Menu */
+.top_menu {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+/* Border Under Top Menu */
+#border-bottom{
+    border-bottom: 1px solid;
+    color: #DEDEDE;
+    width: 100%;
+    margin-left: -8px;
+}
+
+/* Logo */
+img.logo {
+    height: 70px;
+}
+
+/* Email */
+#info #email{
+    color: #38ADA9;
+}
+/* Welcome and Info*/
+.top_menu #Welcome, #info li{
+    color: #7C7C7C;
+    font-family: 'Poppins', Arial, Helvetica;
+    font-size: 13px;
+    font-style: normal;
+
+}
+
+
+/* Elements */
+#elements li {
+    display: inline-block;
+    margin: 2%;
+    text-align: center;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+ul#elements {
+    width: 100%;
+}
+
+#elements a {
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+
+#info li {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.requestAQuote button {
+    border-radius: 35px;
+    width: 149px;
+    height: 44px;
+    border: none;
+    background-color: #38ADA9;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu Icon */
+.menu-icon{
+    color: black;
+    display: none;
+}
+
+/* Active Element */
+.active{
+    color: #38ADA9 !important;
+}
+
+/* Mobile Menu */
+#mobile-menu{
+    display: none;
+    margin-top: -1px;
+}
+
+h2 {
+    text-align: center;
+    color: #38ADA9;
+}
+
+#blog-blogPage{
+    font-family: 'Poppins Medium';
+    color: #38ADA9;
+    font-size: 36px;
+    text-align: center;
+}
+
+.img_promo img {
+    height: 50%;
+}
+#Demanderdevis {
+    display: flex;
+    justify-content: center;
+}
+
+.form_devis {width: 50%;}
+
+
+input[type="text"] {
+    width: 100%;
+}
+
+.img_promo {
+    width: 15%;
+}
+textarea#Commentaires {
+    width: 100%;
+}
+input[type="submit"] {
+    width: 149px;
+    height: 44px;
+    background-color: rgb(56, 173, 169);
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+    border-style: none;
+}
+
+
+/* Service */
+.Services_en_Vedette img {
+    width: 100%;
+}
+.Services_en_Vedette {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.Services_en_Vedette figure {
+     width: 25%;
+}
+
+figcaption {
+    color: #38ada9;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins Medium', 'sans serif';
+}
+
+/* Comment_Nous_Travaillons */
+.Comment_Nous_Travaillons {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Comment_Nous_Travaillons figure {
+    width: 20%;
+}
+
+.Comment_Nous_Travaillons figure img {
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    /* position: relative; */
+    bottom: 0;
+}
+
+footer div a , footer div h3, footer div address{
+    display: block;
+    /* text-align: left; */
+    text-align: center;
+    /* font-family: 'Poppins' light; */
+    font-family: 'Poppins light';
+    color: #3E3E3E;
+    font-size: 10px;
+    line-height: 2;
+}
+footer div p{
+    line-height: 1.6;
+    font-family: 'Poppins light' ;
+    font-size: 10px;
+}
+footer div h3{
+    color: #5C5C5C;
+    font-family: 'Poppins light' ;
+    font-size: 11px;
+}
+
+footer div a {
+    text-decoration: none;
+    font-family: 'Poppins light';
+    color: #3E3E3E;
+    font-size: 10px;
+    line-height: 2;
+}
+
+footer div address{
+    line-height: 1.7;
+    font-family: 'Poppins light';
+    color: #5C5C5C;
+    font-size: 10px;
+    line-height: 2;
+}
+
+footer .icons a i{
+    color: #38ada9;
+    padding-top: 10px;
+    margin-right: 10px;
+    float: left;
+    padding-left: 10px;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-propos, .footer-apercu, .footer-services, 
+.footer-contactez-nous{
+    width: 25%;
+    float: left;
+    background-color:#FAFAFA;
+    height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

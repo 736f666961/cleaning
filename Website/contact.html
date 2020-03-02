@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cleannn | Accueil</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
+        <link rel="stylesheet" href="css/T-css/Tstyle-Contact.css">
+        <link rel="stylesheet" href="css/T-css/Tmedia-Contact.css">
+        <link rel="stylesheet" href="css/Acss/Astyle.css">
+        <link rel="stylesheet" href="css/Acss/Amedia.css">
+        <script type="text/javascript">
+            function valider(){
+                // ##########validation nom ###########
+                var Nom = document.getElementById('Nom');
+                if (Nom.value=="") {
+                    document.getElementById('spanNom').innerText = "Le champs doit etre remplir";
+                }
+                else{
+                    document.getElementById('spanNom').innerText = "";
+                }
+                // ##########validation prenom ###########
+                var Prenom = document.getElementById('Prenom');
+                if (Prenom.value=="") {
+                    document.getElementById('spanPrenom').innerText = "Le champs doit etre remplir";
+                }
+                else{
+                    document.getElementById('spanPrenom').innerText = "";
+                }
+                // ##########validation email ###########
+                var Email = document.getElementById('Email');
+                // var e = /^(\[A-Za-z]{*})+([5-7]{1})+([0-9]{8})$/;
+                if (Email.value=="") {
+                    document.getElementById('spanEmail').innerText = "Le champs doit etre remplir";
+                }
+                else if (Email.value.indexOf('@')==-1)
+                {
+                    document.getElementById('spanEmail').innerText="Erreur ";
+                    document.getElementById('spanEmail').style.color="red";
+                }
+                else{
+                    document.getElementById('spanEmail').innerText = "";
+                }
+                // ##########validation Telephone ###########
+                var Telephone = document.getElementById('Telephone');
+                var a = /^(\+212)+([5-7]{1})+([0-9]{8})$/;
+                if (Telephone.value=="") {
+                    document.getElementById('spanTel').innerText = "Le champs doit etre remplir";
+                }
+                else if (!a.test(Telephone.value))
+                {
+                    document.getElementById('spanTel').innerText="Erreur";
+                    document.getElementById('spanTel').style.color="red";
+
+                }
+                else
+                {
+                    document.getElementById('spanTel').innerHTML="";
+                }
+            }
+        </script>
+    </head>
+    <body style="">
+        <!-- Header -->
+        <div class="top_menu">
+            <span id="Welcome">Welcome To our Cleannn Company </span>
+            <ul id="info">
+                <li>Phone: +212 522 22 47 05</li>
+                <li> Email: <span id="email">info@cleannn.com</span></li>
+            </ul>
+        </div>
+        
+        <!-- Border Under Top Menu -->
+        <div id="border-bottom"></div>
+
+        <!-- Nav Bar -->
+        <nav>
+            <div><a  href="Accueil.html"><img class="logo" src="img/Aimages/logo.png" alt="logo"></a></div>
+            <ul id="elements">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="propos.html">À propos de nous</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="nos-travaux.html">Nos Travaux </a></li>
+                <li><a href="prix.html">Prix</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
+            </ul>
+            <a href="#" onclick="show()" class="menu-icon"><i class="fa fa-bars"></i></a>
+        </nav>
+        <!-- Mobile Menu -->
+        <div>
+            <ul id="mobile-menu">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="propos.html">À propos de nous</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="nos-travaux.html">Nos Travaux </a></li>
+                <li><a href="prix.html">Prix</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li class="requestAQuote"><a href="devis.html"><button>Demander un devis</button></a></li>
+            </ul>
+        </div>
+
+        <!-- #########################################----1_section----######################################### -->
+        <section id="section1">
+            <center>
+                <div id="content1-1section">
+                    <h1 class="h1-all-section">Contactez-Nous</h1>
+                </div>
+                <div id="content2-1section" style="position: relative !important;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.7044854079727!2d-9.237442684447709!3d32.29292221581665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYouCode%20Safi!5e0!3m2!1sfr!2sma!4v1577733452147!5m2!1sfr!2sma" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </center>
+        </section>
+
+        <!-- #########################################----2_section----######################################### -->
+        <section id="section2">
+            <center>
+                <div id="div-container-2section">
+                    <div id="content1-2section">
+                        <h1 style="">Contactez Nous</h1>
+                        <p style="">Pour plus d’informations, un devis gratuit, une question sur nos compétences ou sur nos tarifs nettoyage, travaux divers, services facilités ou travaux multiservices à Casablanca et partout au Maroc, n’hésitez pas à nous contacter, notre équipe est à votre disposition. Nous prendrons contact avec vous dès réception de votre message.</p>
+                    </div>
+                    <div id="content2-2section">
+                        <div id="div-g-content2-2section">
+                            <h1 style="">Nos Horaires</h1>
+                            <div id="div1-content2-2section">
+                                <img src="img\T-imag\Groupe 26.png">
+                                <p style=""><b>LUNDI - VENDREDI : De 09h00 à 18h00</b></p>
+                            </div>
+                            <div id="div2-content2-2section">
+                                <img src="img\T-imag\Groupe 26.png">
+                                <p style=""><b>Samedi : De 09h00 à 13h00</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </section>
+
+        <!-- #########################################----3_section----######################################### -->
+        <section id="section3" style="margin-top: 50px;">
+            <form>
+                <center>
+                    <div id="div-container-3section">
+                        <div id="content1-3section">
+                            <div id="content1-nom-3section">
+                                <label class="label-section-3">Nom :</label>
+                                <span id="spanNom" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Nom" placeholder="Nom">
+                            </div>
+                            <div id="content1-preno-3section">
+                                <label class="label-section-3">Prénom :</label>
+                                <span id="spanPrenom" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Prenom" placeholder="Prenom">
+                            </div>
+                        </div>
+                        <div id="content2-3section">
+                            <div id="content1-email-3section">
+                                <label class="label-section-3">Email :</label>
+                                <span id="spanEmail" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Email" placeholder="Ex:email@gmail.com">
+                            </div>
+                            <div id="content1-object-3section">
+                                <label class="label-section-3">Telephone :</label>
+                                <span id="spanTel" class="span-section-3"></span><br><br>
+                                <input type="text" class="input-section-3" id="Telephone" placeholder="Ex:+2126123456">
+                            </div>
+                        </div>
+                        <div  id="content3-3section">
+                            <center>
+                                <div id="content1-message-3section">
+                                    <label class="label-section-3">Message :</label>
+                                    <span id="spanMessage" class="span-section-3"></span><br><br>
+                                    <textarea id="textarea-3section" placeholder="Message"></textarea>
+                                    <input type="button" id="button-3section" value="Envoyer" onclick="valider()">
+                                </div>
+                            </center>
+                        </div>
+                        <div  id="content4-3section">
+                            <!-- <input type="button" id="button-3section" value="Envoyer" onclick="valider()"> -->
+                        </div>
+                    </div>
+                </center>
+            </form>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer style="margin-top: 40px;">
+            <div class="footer-propos">
+                <img src="img/Aimages/logo.png" width="60px" alt="Logo">
+                <p>Notre société de Nettoyage à Casablanca vous apporte des solutions concrètes en matière de Nettoyage 
+                    et de traitement: une organisation rigoureuse et fiable .</p>
+                    <p>&copy; Copyright 2020 Cleannn,  All Right Reserved</p>
+            </div>
+
+            <div class="footer-apercu">
+                <h3>Aperçu rapide</h3>
+                <a href="Accueil.html">Accueil</a>
+                <a href="propos.html">À propos de nous</a>
+                <a href="services.html">services</a>
+                <a href="nos-travaux.html">Nos Travaux </a>
+                <a href="prix.html">prix</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">contact</a>
+                <a href="devis.html">demander un devis</a>
+            </div>
+
+            <div class="footer-services">
+                <h3>Services</h3>
+                <a>Nettoyage commercial</a>
+                <a>Nettoyage de maison</a>
+                <a>Nettoyage de bureau</a>
+                <a>Nettoyez la glass</a>
+                <a>Nettoyez les fenetres</a>
+            </div>
+
+            <div class="footer-contactez-nous">
+                <h3>Contactez nous</h3>
+                <address>
+                    Phone: +212 522 22 47 05 <br>
+                    Email: info@cleannn.com <br>
+                    Fax: +1 342 422 5314 <br>
+                </address>
+                <div class="icons">
+                    <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fm2w%26s%3D100%26p%255Burl%255D%3Dhttp%253A%252F%252Fwww.nettoyage-casablanca-maroc.com%252F2018%252F07%252F04%252Fconseils-pour-maintenir-propre-une-maison%252F%26p%255Bimages%255D%255B0%255D%26p%255Btitle%255D%3DConseils%2Bpour%2Bmaintenir%2Bpropre%2Bune%2Bmaison&display=popup"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/intent/tweet?text=Conseils%20pour%20maintenir%20propre%20une%20maison&url=http://www.nettoyage-casablanca-maroc.com/2018/07/04/conseils-pour-maintenir-propre-une-maison/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/m/login/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCIoNmspDcafK-64GIvoVk7Q/videos"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+        </footer>
+       
+        <!-- Scripts for importing only -->
+        <script src="js/Ajs/Ascript.js"></script>
+    </body>
+</html>
